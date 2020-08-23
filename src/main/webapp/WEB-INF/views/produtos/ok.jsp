@@ -1,14 +1,12 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html>
+        <html>
 <head>
 <meta charset="UTF-8">
-<title>Livros de Java, Android, IPhone, Ruby, PHP e muito mais - Casa do Código</title>
+<title>Livros de Java, Android, iPhone, Ruby, PHP e muito mais - Casa do Código</title>
 </head>
 <body>
-	
-	<h1>Produto cadastrado com sucesso.</h1>
-
+ <h1>Produto cadastrado com sucesso!</h1>
 </body>
 </html>
