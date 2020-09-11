@@ -40,11 +40,6 @@ import br.com.casadocodigo.loja.models.CarrinhoCompras;
 @EnableCaching
 public class AppWebConfiguration extends WebMvcConfigurerAdapter {
 	
-	@Override
-	public void configureDefaultServletHandling(DefaultServletHandlerConfigurer configurer) {
-	    configurer.enable();
-	}
-	
 	@Bean
 	public InternalResourceViewResolver internalResourceViewResolver() {
 		InternalResourceViewResolver resolver = new InternalResourceViewResolver();
@@ -109,10 +104,10 @@ public class AppWebConfiguration extends WebMvcConfigurerAdapter {
 		return resolver;
 	}
 	
-	
-	
-	
-	
+	@Override
+	public void configureDefaultServletHandling(DefaultServletHandlerConfigurer configurer) {
+		configurer.enable();
+	}
 	
 }
 	
