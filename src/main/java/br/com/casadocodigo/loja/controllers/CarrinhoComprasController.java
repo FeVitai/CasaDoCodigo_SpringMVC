@@ -37,6 +37,7 @@ public class CarrinhoComprasController {
 	
 	@RequestMapping(method = RequestMethod.GET)
 	public ModelAndView itens () {
+		
 		return new ModelAndView("carrinho/itens");
 	}
 
